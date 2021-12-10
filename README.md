@@ -3,12 +3,12 @@ This repo is about neural network knowledge distillation. We experimented with t
 
 ## How to Run
 
-*** `MNIST_CODE` Folder
+`MNIST_CODE` Folder
 
 - The `Model.py` file contains the architectures of student model and teacher model used to generate the results on MNIST dataset. This includes the MLP models
 - The `ece661_final_project.ipynb` notebook contains all the code to explore knowledge on MNIST dataset, including the general knowledge distillation, different temperature and omit one digit.
 - 
-*** `CIFAR10_CODE` Folder
+`CIFAR10_CODE` Folder
 
 - The `Model.py` file contains the architectures of student model and teacher model used to generate the results on CIFAR10 dataset. This includes the ResNet20 and ResNet50 model
 - The `resnet20_resnet50.ipynb` notebook contains the code for training ResNet20 and ResNet50 seperately, and tested the test accuracy on CIFAR10 dataset.
